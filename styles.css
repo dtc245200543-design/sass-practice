@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 2rem;
+  color: #25243a;
+  font-family: system-ui, sans-serif;
+}
+
+.welcome {
+  max-width: 42rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  background: rgb(93.3899782135%, 92.7450980392%, 98.5490196078%);
+}
+.welcome h1 {
+  color: #5b4bdb;
+}
+.welcome p {
+  line-height: 1.6;
+}

@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 2rem;
+  color: #25243a;
+  font-family: system-ui, sans-serif;
+}
+
+.home-card {
+  max-width: 42rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  background: #f1efff;
+}
+.home-card h1 {
+  color: #5b4bdb;
+}

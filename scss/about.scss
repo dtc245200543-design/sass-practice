@@ -1,0 +1,14 @@
+@use "variables" as *;
+
+body {
+  padding: 2rem;
+  color: $text-color;
+  font-family: system-ui, sans-serif;
+}
+
+.about {
+  max-width: 42rem;
+  margin: 2rem auto;
+  border-left: 0.25rem solid $primary-color;
+  padding: 1rem 1.5rem;
+}

@@ -1,0 +1,27 @@
+@use "sass:color";
+
+$primary-color: #5b4bdb;
+$text-color: #25243a;
+
+body {
+  margin: 0;
+  padding: 2rem;
+  color: $text-color;
+  font-family: system-ui, sans-serif;
+}
+
+.welcome {
+  max-width: 42rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  background: color.adjust($primary-color, $lightness: 38%);
+
+  h1 {
+    color: $primary-color;
+  }
+
+  p {
+    line-height: 1.6;
+  }
+}
